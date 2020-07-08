@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>| Shop Your grocery |</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    </head>
+  <body style="margin-top:5%;">
+    <!-- first table  -->
+
+    <div class="container">
+          <div class="first-section">
+            <img src="aata.jpg" alt="Atta packet" style="width:80%;"> </img>
+          </div>
+          <div class="second-section" style="padding-left:50px;">
+            <p class="name-of-atta toBeReplaced" style="line-height:2;"><span>Aashirvaad Atta - Whole Wheat,10 kg Pouch <br> <b> Rs 399 </b> <span></p>
+            <div class="item-button">
+              <p class="pack-size">Pack Sizes</p>
+              <span> <button class="first1 chooseQuantity " id="one" type="button" name="button" value="399"> 10 kg Rs 399  </button> </span>
+              <span> <button  class="first2 chooseQuantity"  id="two" type="button" name="button" value="209"> 5 kg Rs 209  </button> </span>
+            </div>
+            <div class="cart-quantity">
+              <br>
+              <p>QUANTITY :</p>
+               <!-- button area  -->
+               <form style="margin-top:0px;margin-left:0px; width:130px; padding-top:0px;">
+                <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+                <input type="number" id="number" value="1" />
+                <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+              </form>
+
+               <!-- button end area  -->
+               <br><br>
+               <div class="written" style="display:flex;">
+                 <div class="purchase">
+                   <button class="myButton">Payable</button>
+                 </div>
+                 <div class="instant" id="result">
+                   <!-- <p style="margin-bottom: 0px;padding-top: 0px;padding-left: 10px;color:#42b883;margin-top: 5px;"> = Rs 399</p> -->
+                 </div>
+               </div>
+            </div>
+          </div>
+    </div>
+
+    <!-- starting table  -->
+
+    <div class="containers">
+      <div class="first">
+        <img src="jeera.jpg" alt="Jeera Packet" >
+        <p style="margin-top:0px;">Royal Jeera Packet</p>
+      </div>
+      <div class="second">
+        <img src="fortune.jpg" alt="Fortune Packet">
+        <p style="margin-top:0px;">Fortune Packet</p>
+      </div>
+      <div class="third">
+        <img src="dal1.jpg" alt="Dal Packet">
+        <p style="margin-top:0px;">Pulse Packet</p>
+      </div>
+      <div class="fourth">
+        <img src="atta2.jpg" alt="Aata Packet">
+        <p style="margin-top:0px;">Flour Packet</p>
+      </div>
+      <div class="fifth">
+        <img src="rice.jpg" alt="Rice Packet">
+        <p style="margin-top:0px;">Rice Packet</p>
+      </div>
+    </div>
+
+
+    <!-- end of table  -->
+    <script src="shoping.js">  </script>
+  </body>
+</html>
